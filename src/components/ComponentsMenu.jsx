@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const activeStyle = ({ isActive }) => ({
   fontWeight: isActive ? "600" : "400",
+  color: isActive ? "#36486b" : "black",
+  borderBottom: isActive ? "2px solid #36486b" : "none"
 });
 const ComponentsMenu = () => {
   return (
@@ -25,9 +27,6 @@ const ComponentsMenu = () => {
         </NavLink>
         <NavLink style={activeStyle} to="/components/card">
           Card
-        </NavLink>
-        <NavLink style={activeStyle} to="/components/heading">
-          Heading
         </NavLink>
         <NavLink style={activeStyle} to="/components/image">
           Image

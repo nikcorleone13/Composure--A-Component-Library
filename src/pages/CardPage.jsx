@@ -1,14 +1,14 @@
 import React from 'react'
 import ComponentsMenu from '../components/ComponentsMenu'
-import Alert from '../components/Alert'
+import CardComponent from "../components/CardComponent"
 
-const AlertPage = () => {
+const CardPage = () => {
   return (
     <div className='p-10 flex justify-center'>
         <ComponentsMenu />
-        <Alert />
+        <CardComponent />
     </div>
   )
 }
 
-export default AlertPage
+export default CardPage

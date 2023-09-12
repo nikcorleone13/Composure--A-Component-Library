@@ -11,8 +11,7 @@ const Alert = () => {
 
   const handleCodeCopy = () =>{
     setCopied(true); 
-    navigator.clipboard.writeText(alertMessage);
-
+    navigator.clipboard.writeText( `window.alert("This is the demo alert")`);
     setTimeout(() =>{
       setCopied(false);
     },2000)
@@ -20,7 +19,7 @@ const Alert = () => {
 
   return (
     <div className=" left-0 ml-[10%] lg:ml-[5%] w-screen">
-      <h1 className="text-5xl border-b-2">Alert</h1>
+      <h1 className="text-5xl border-b-2 text-textPrimary">Alert</h1>
       <div className="mt-10 text-md w-[70%]">
         <p className="text-lg">
           It is used when a warning message is needed to be produced. When the
@@ -30,7 +29,7 @@ const Alert = () => {
 
         {/* demo button */}
         <button
-          className="mt-6 my-8 flex justify-center items-center px-2 py-1 my-2 border-2 border-textPrimary text-center rounded-md text-md bg-textPrimary text-bgPrimary"
+          className="mt-6 my-8 flex justify-center items-center px-2 py-1  border-2 border-textPrimary text-center rounded-md text-md bg-textPrimary text-bgPrimary"
           onClick={() => handleAlert()}
         >
           Check Demo
@@ -43,14 +42,14 @@ const Alert = () => {
         {
           !copied ? (
           <button className="flex justify-center items-center px-2 py-1 my-2 border-2 border-textPrimary text-center rounded-md text-md" onClick={()=> handleCodeCopy()}>
-          Copy Code
+          Copy
           <span>
             <LuCopy className="ml-2"/>
           </span>
         </button>) 
         :(
           <button className="flex justify-center items-center px-2 py-1 my-2  bg-green-300 text-center rounded-md text-md">
-          Copy Code
+          Copied
           <span>
             <LuCopyCheck className="ml-2"/>
           </span>
