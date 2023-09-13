@@ -34,16 +34,6 @@ export const components = [
     },
     {
       id: 7,
-      component: 'Input',
-      address: '/components/input'
-    },
-    {
-      id: 8,
-      component: 'Modal',
-      address: '/components/modal'
-    },
-    {
-      id: 9,
       component: 'Typography',
       address: '/components/typography'
     }

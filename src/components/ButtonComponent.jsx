@@ -5,12 +5,13 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { LuCopy,LuCopyCheck } from "react-icons/lu";
 import {MdDelete,MdAddAPhoto} from "react-icons/md"
 
-const codeString = `<button className="px-4 py-2 border-2 border-Primary 
+const codeString = `
+// primary button
+<button className="px-4 py-2 border-2 border-Primary 
 rounded-lg bg-Primary text-Primary hover:text-Primary hover:bg-Primary duration-200 ease-in-out">Primary</button>
 
-// secondary button
-<button className="px-4 py-2 rounded-lg text-Primary border-2 border-Primary 
-bg-Primary hover:bg-Primary hover:text-Primary duration-200 ease-in-out">Secondary</button>
+// link button
+<button className="hover:underline "><Link>Link Button</Link></button>
 
 // icon button
 <button className="px-4 py-2 rounded-lg text-textPrimary">

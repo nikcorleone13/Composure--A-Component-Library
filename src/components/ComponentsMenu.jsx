@@ -28,17 +28,11 @@ const ComponentsMenu = () => {
         <NavLink style={activeStyle} to="/components/card">
           Card
         </NavLink>
-        <NavLink style={activeStyle} to="/components/image">
-          Image
-        </NavLink>
-        <NavLink style={activeStyle} to="/components/input">
-          Input Field
-        </NavLink>
-        <NavLink style={activeStyle} to="/components/modal">
-          Modal
-        </NavLink>
         <NavLink style={activeStyle} to="/components/typography">
           Typography
+        </NavLink>
+        <NavLink style={activeStyle} to="/components/image">
+          Image
         </NavLink>
       </nav>
     </>

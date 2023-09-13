@@ -101,7 +101,7 @@ const BadgeComponent = () => {
               horizontal: "right",
             }}
           >
-            <Avatar alt="George Clooney" src="../../public/avatarImage.jpg" />
+            <Avatar alt="George Clooney" src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/george-clooney-735-20-10-2016-01-08-18.jpg" />
           </Badge>
         </div>
 

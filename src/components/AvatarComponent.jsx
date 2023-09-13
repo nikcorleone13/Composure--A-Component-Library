@@ -37,18 +37,18 @@ const handleCodeCopy = () =>{
           <Stack direction="row" spacing={3}>
             <Avatar
               alt="George Clooney"
-              src="../../public/avatarImage.jpg"
+              src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/george-clooney-735-20-10-2016-01-08-18.jpg"
               sx={{ width: 24, height: 24 }}
             />
-            <Avatar alt="George Clooney" src="../../public/avatarImage.jpg" />
+            <Avatar alt="George Clooney" src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/george-clooney-735-20-10-2016-01-08-18.jpg" />
             <Avatar
               alt="George Clooney"
-              src="../../public/avatarImage.jpg"
+              src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/george-clooney-735-20-10-2016-01-08-18.jpg"
               sx={{ width: 56, height: 56 }}
             />
             <Avatar
               alt="George Clooney"
-              src="../../public/avatarImage.jpg"
+              src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/george-clooney-735-20-10-2016-01-08-18.jpg"
               sx={{ width: 108, height: 108 }}
             />
           </Stack>
