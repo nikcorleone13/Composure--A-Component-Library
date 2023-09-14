@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-export const components = [
+export const componentsData = [
     {
       id: 1,
       component: 'Alert',
@@ -44,7 +44,7 @@ const Components = () => {
     <div className=' h-screen '>
     <div className=' m-auto pt-20 w-[60%] flex justify-evenly flex-wrap gap-16'>
         {
-            components.map((item) =>{
+            componentsData.map((item) =>{
                 return(
                     <div
                     className='bg-bgPrimary text-3xl text-center w-[250px] py-6 rounded-lg border-4 border-textPrimary text-textPrimary font-semibold hover:scale-105 duration-200  '>

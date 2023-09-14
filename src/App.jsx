@@ -10,6 +10,7 @@ import ButtonPage from "./pages/ButtonPage";
 import CardPage from "./pages/CardPage";
 import TypographyPage from "./pages/TypographyPage";
 import ImagesPage from "./pages/ImagesPage";
+import UnknownPage from "./pages/UnknownPage";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <Route path="/components/card" element={<CardPage />} />
         <Route path="/components/image" element={<ImagesPage />} />
         <Route path="/components/typography" element={<TypographyPage />} />
+        <Route path="/components/*" element={<UnknownPage />} />
+
       </Routes>
     </div>
   );
